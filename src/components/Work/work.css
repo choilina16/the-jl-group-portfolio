@@ -16,6 +16,7 @@
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
+  margin-bottom: 5rem;
 }
 
 .work-card {
@@ -94,7 +95,7 @@
 
 @media (min-width: 801px) {
   .work-card-section {
-    margin-bottom: 15rem;
+    margin-bottom: 5rem;
   }
 }
 
@@ -108,10 +109,26 @@
   .work-card img {
     height: 20em;
   }
+
+  .work-container {
+    scale: 0.9;
+  }
+}
+
+@media (min-width: 1600px) {
+  .work-container {
+    scale: 1;
+  }
 }
 
 @media (min-width: 1655px) {
   .work-header {
     font-size: 8em;
+  }
+}
+
+@media (max-width: 442px) {
+  .work-header {
+    font-size: 2em;
   }
 }
